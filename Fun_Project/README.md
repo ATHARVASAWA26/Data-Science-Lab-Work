@@ -14,17 +14,17 @@ An interactive command-line number guessing game where the computer secretly pic
 4. **Statistics Tracker** — Win rate, average guesses per round, total score, and time-per-round aggregated and displayed at session end
 
 ## Results
-- Binary search is the mathematically optimal strategy — it solves any Easy (1–50) game in ≤ 6 guesses, Medium (1–100) in ≤ 7, and Hard (1–200) in ≤ 8
+- Binary search is the mathematically optimal strategy, it solves any Easy (1–50) game in ≤ 6 guesses, Medium (1–100) in ≤ 7, and Hard (1–200) in ≤ 8
 - Human players typically require 20–40% more attempts than optimal due to anchoring bias
 - Score formula: `max(100 - (attempts - 1) × 15 - elapsed_seconds, 10)`
 
 ## Tools Used
 - Python 3.10+
-- `random` — secret number generation and demo auto-solver
-- `time` — round timer for scoring
+- `random`  secret number generation and demo auto-solver
+- `time` round timer for scoring
 
 ## Conclusion
-A minimal yet engaging mini-game that reinforces fundamental Python constructs. The hot/cold hint system teaches players to converge faster — essentially learning binary search intuitively. Extending this into a Flask web app or a Tkinter GUI would be a natural next step.
+A minimal yet engaging mini-game that reinforces fundamental Python constructs. The hot/cold hint system teaches players to converge faster essentially learning binary search intuitively. Extending this into a Flask web app or a Tkinter GUI would be a natural next step.
 
 ## Author
 ATHARVA H SAWANT
